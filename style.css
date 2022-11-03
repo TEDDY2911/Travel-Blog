@@ -1,0 +1,137 @@
+body{
+    /* scroll-behavior: smooth; */
+    /* overflow: hidden; */
+}
+.head{
+    background-color: rgb(133, 176, 211);
+    /* color: azure; */
+    width: 100%;
+    position:fixed;
+    padding: 30px;
+    top:0%;
+    left:0%;
+}
+*{
+    scroll-behavior: smooth;
+}
+
+#home{
+   padding-bottom: 50px;
+}
+#activities{
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+#about{
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.head button {
+    padding:10px;
+    box-shadow: 5px 5px 5px;
+    border-radius: 50px;
+    font-size: 25px;
+}
+.head button:hover{
+    background-color: cadetblue;
+}
+.head a{
+    font-size: 35px;
+    text-decoration: none;
+    padding: 20px;
+    margin-left: 250px;
+    color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    margin: 100px;
+    color: black;
+    padding: -1px;
+    text-align: center;
+}
+.row span{
+    font-size: 250px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* color: yellowgreen; */
+    padding: 10px;
+    animation: examples;
+    color: red;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes examples{
+
+    60%{color:yellowgreen}
+    /* 25%{color: black;} */
+}
+
+.row h1{
+    font-size: 130px;
+    padding-top: 5px;
+}
+.row p{
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -40px;
+    background-color: white;
+}
+@keyframes text{
+    0%{color:black;
+       margin-bottom: -80px;
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: -80px;
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -85px;
+    }
+}
+.row h2{
+    font-size: 70px;
+    right: 100vh;
+    padding-bottom: 100px;
+    
+}
+.main p{
+    font-size: 35px;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main h2{
+    font-size: 35px;
+    color:red;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+.main li{
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:14px;
+    animation: text 3s; 
+    /* animation-iteration-count: 5; */
+    /* animation-delay: 2s; */
+    /* background-color: black; */
+}
+
+
+
+.main ul{
+    list-style: none;
+}
+.main2 span{
+    font-size: 90px;
+    color: rgb(71, 126, 75);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main2 h2{
+    font-size: 50px;
+    
+}
+.main2 h3{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+}
